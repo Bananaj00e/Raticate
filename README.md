@@ -32,7 +32,7 @@ Rules :
  The module is for 1 thing no more
  can be |exploit|post|decrypt|other
  
-you can send tour module from link
+you can send your module from link
  ===>
 ```
 
