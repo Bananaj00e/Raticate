@@ -1,5 +1,5 @@
 # Pikachu
-Welcome To Pikachu
+## Welcome To Pikachu
 
 
 
@@ -7,17 +7,17 @@ Welcome To Pikachu
 
 
 
-               Pikachu is An Hacking Framework
+              ### Pikachu is An Hacking Framework
                
                
                
 #Installing
-' git clone https://github.com/Bananaj00e/Pikachu.git '
-'  bash install.sh '
+``` git clone https://github.com/Bananaj00e/Pikachu.git '
+    bash install.sh ```
 
 
 #run
- pikachu
+ `pikachu`
  
  
  
