@@ -11,17 +11,17 @@
                
                
                
-#Installing
-``` git clone https://github.com/Bananaj00e/Pikachu.git '
-    bash install.sh ```
+Installing
+` git clone https://github.com/Bananaj00e/Pikachu.git `
+ ` bash install.sh `
 
 
-#run
+run
  `pikachu`
  
  
  
- Version : 1.0
+
  
  
  Any One can upload A Module To This Framework 
@@ -32,3 +32,6 @@ Rules :
  
 you can send tour module from link
  ===>
+
+
+`Version:1.0`
