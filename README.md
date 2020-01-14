@@ -3,7 +3,7 @@
 
 
 
-![alt text](http://wiressouls.c1.biz/pika.jpg)
+![alt text](https://i.ibb.co/Sv0g4cN/IMG-20200114-232046-239.jpg)
              
 
 
