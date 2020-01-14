@@ -12,8 +12,8 @@ Welcome To Pikachu
                
                
 #Installing
- git clone 
- bash install.sh
+' git clone https://github.com/Bananaj00e/Pikachu.git '
+'  bash install.sh '
 
 
 #run
