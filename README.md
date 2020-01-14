@@ -32,8 +32,7 @@ Rules :
  The module is for 1 thing no more
  can be |exploit|post|decrypt|other
  
-you can send your module from link
- ===>
-```
 
+```
+[Upload A Module] (https://form.jotform.com/200137141537546)
 `Version:1.0`
