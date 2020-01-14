@@ -13,7 +13,8 @@
                
 ## How To Install
 ` git clone https://github.com/Bananaj00e/Pikachu.git `
- `bash install.sh `
+
+`bash install.sh `
 
 
 ## How To Run
