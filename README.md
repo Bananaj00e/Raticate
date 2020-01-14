@@ -7,24 +7,25 @@
 
 
 
-              ### Pikachu is An Hacking Framework
+              Pikachu is A Hacking Framework
                
                
                
-Installing
+## How To Install
 ` git clone https://github.com/Bananaj00e/Pikachu.git `
- ` bash install.sh `
+ `bash install.sh `
 
 
-run
+## How To Run
  `pikachu`
  
  
  
 
  
- 
- Any One can upload A Module To This Framework 
+## How To Upload A Module
+```
+Any One can upload A Module To This Framework 
  
 Rules :
  The module is for 1 thing no more
@@ -32,6 +33,6 @@ Rules :
  
 you can send tour module from link
  ===>
-
+```
 
 `Version:1.0`
