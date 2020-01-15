@@ -7,7 +7,7 @@
              
 
 
-              Pikachu is A Hacking Framework
+              Pikachu is Open Source Hacking Framework
                
                
                
