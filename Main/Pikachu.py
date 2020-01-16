@@ -74,12 +74,12 @@ if x > update:
     print(Fore.LIGHTYELLOW_EX + """
 
 
- (\__/)   -----------------
+ (\__/)    -----------------
  (='.')   | Do you want to  |
  (_(")(") |     Update ?    |
-        |  |                 |
+          |                 |
           | (y) Yes (n) No  |
-          -----------------
+           -----------------
  """)
     update = input("[Update] > ")
     if update == "y":
