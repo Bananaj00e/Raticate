@@ -174,15 +174,15 @@ os.system("clear")
 
 ############### Random Logo ################
 
+def logo():
+ foo = ['2','1','3']
+ random = (random.choice(foo))
 
-foo = ['2','1','3']
-random = (random.choice(foo))
 
 
+ if random == "1" :
 
-if random == "1" :
-
- print (Fore.LIGHTYELLOW_EX + """
+  print (Fore.LIGHTYELLOW_EX + """
 Pikachu! : This Is My Real Password
 
 V              V              V              V              V
@@ -211,8 +211,8 @@ X              X              X              X              X
   """)
 
 
-elif random == ("2") :
- print ("""
+ elif random == ("2") :
+  print ("""
 
            //
          _//
@@ -228,8 +228,8 @@ elif random == ("2") :
 
   """)
 
-elif random == ("3") :
- print ("""
+ elif random == ("3") :
+  print ("""
 
   //
  (")
@@ -240,7 +240,7 @@ elif random == ("3") :
 
  """)
 
-
+logo()
 ##########################Pikachu##########################
 
 
@@ -255,7 +255,9 @@ def Start() :
 
  elif commandd == ("exit") :
   print (Fore.GREEN + "[*] Bye Bye :( ")
-
+ elif commandd == ("logo") : 
+  logo()
+  
  elif commandd == ("help") :
   print(Fore.GREEN + """
 +
@@ -265,7 +267,8 @@ def Start() :
 +| show  | Show Modules|  +
  | use   | use Modules |
  | clear | Clear Screen|  +
- | exit  | Exit Pukachu|
+ | logo  | Clear Screen|      +
+ | exit  | Exit Pukachu| +
  | update|  For Update |
   ---------------------
 +     +       +        +   +
