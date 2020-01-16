@@ -34,16 +34,14 @@ def updatetermux() :
          print (Fore.GREEN + "[*] Updating")
          time.sleep(3)
          os.system("rm -rf /data/data/com.termux/files/usr/share/Pikachu")
-         os.system("cd /data/data/com.termux/files/usr/share")
-         os.system("git clone https://github.com/Bananaj00e/Pikachu.git")
+         os.system("git clone https://github.com/Bananaj00e/Pikachu.git /data/data/com.termux/files/usr/share/Pikachu")
          os.system("clear")
 
 def updatelinux() :
          print (Fore.GREEN + "[*] Updating")
          time.sleep(3)
          os.system("rm -rf /usr/share/Pikachu")
-         os.system("cd /usr/share")
-         os.system("git clone https://github.com/Bananaj00e/Pikachu.git ")
+         os.system("git clone https://github.com/Bananaj00e/Pikachu.git /usr/share/Pikachu ")
          os.system("clear")
 
 
