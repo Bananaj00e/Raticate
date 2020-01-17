@@ -39,6 +39,12 @@ pip3 install urllib.request
 pip3 install urllib
 pip3 install progress.bar
 pip3 install progress
+pip2 install requests
+pip2 install json
+pip2 install colorama
+pip2 install urlparse
+
+
 
 clear
 echo ""
