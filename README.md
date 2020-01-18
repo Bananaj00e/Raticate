@@ -3,7 +3,7 @@
 
 
 
-![alt text](https://www.nautiljon.com/images/perso/00/95/nezumi_16059.jpg)
+![alt text](https://steamuserimages-a.akamaihd.net/ugc/934931452907312350/8DEFCC6FC45286E35BF6B64805E087D7C92D54F3/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
              
 
 
