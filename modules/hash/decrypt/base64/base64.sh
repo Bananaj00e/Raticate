@@ -1,4 +1,4 @@
-clear
+
 read -p "Enter Base64 Hash : " var
 touch hash
 echo $var >> hash
