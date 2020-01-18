@@ -18,7 +18,7 @@
 
 
 ## How To Run
- `Raticate`
+ `raticate`
  
  
  
