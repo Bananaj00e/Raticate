@@ -50,5 +50,5 @@ clear
 echo ""
 
 echo -e " \e[33m[*] pikachu Has been Installed succesfully"
-echo -e " \e[33m[*] Try To run 'pikachu' in A New Terminal "
+echo -e " \e[33m[*] Try To run 'raticate' in A New Terminal "
 
