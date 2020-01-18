@@ -16,21 +16,21 @@ read var
 
 if [ $var == "1" ]
 then
-alias pikachu='python3 /usr/share/Pikachu/Main/Pikachu.py'
+alias pikachu='python3 /usr/share/Raticate/Main/Raticate.py'
 echo " This Installer must run with root"
 
 cp -r $ch /usr/share
-echo "alias pikachu='python3 /usr/share/Pikachu/Main/Pikachu.py'" >> /root/.bashrc
+echo "alias raticate='python3 /usr/share/Raticate/Main/Raticate.py'" >> /root/.bashrc
 
 fi
 
 
 if [ $var == "2" ]
 then
-alias pikachu='python3 //data/data/com.termux/files/usr/share/Pikachu/Main/Pikachu.py'
+alias pikachu='python3 //data/data/com.termux/files/usr/share/Raticate/Main/Raticate.py'
 echo "termux" >> version
 cp -r $ch //data/data/com.termux/files/usr/share
-echo "alias pikachu='python3 //data/data/com.termux/files/usr/share/Pikachu/Main/Pikachu.py'" >> //data/data/com.termux/files/usr/etc/bash.bashrc
+echo "alias raticate='python3 //data/data/com.termux/files/usr/share/Raticate/Main/Raticate.py'" >> //data/data/com.termux/files/usr/etc/bash.bashrc
 
 fi
 
