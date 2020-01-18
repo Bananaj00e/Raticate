@@ -33,8 +33,8 @@ from progress.bar import Bar
 def update() :
          print (Fore.GREEN + "[*] Updating")
          time.sleep(3)
-         os.system("rm -rf ~/../usr/share/Pikachu")
-         os.system("git clone https://github.com/Bananaj00e/Pikachu.git ~/../usr/share/Pikachu")
+         os.system("rm -rf ~/../usr/share/Raticate")
+         os.system("git clone https://github.com/Bananaj00e/Raticate.git ~/../usr/share/Raticate")
          os.system("clear")
 
 
@@ -95,68 +95,68 @@ else:
 
 time.sleep(3)
 os.system("clear")
-print (Fore.MAGENTA + "[*] Starting Pikachu /")
+print (Fore.MAGENTA + "[*] Starting Raticate /")
 time.sleep(0.5)
 os.system("clear")
-print (Fore.MAGENTA + "[*] Starting Pikachu -")
+print (Fore.MAGENTA + "[*] Starting Raticate -")
 time.sleep(0.5)
 os.system("clear")
-print (Fore.MAGENTA + "[*] Starting Pikachu |")
+print (Fore.MAGENTA + "[*] Starting Raticate |")
 time.sleep(0.5)
 os.system("clear")
-print (Fore.MAGENTA + "[*] Starting Pikachu -")
+print (Fore.MAGENTA + "[*] Starting Raticate -")
 time.sleep(0.5)
 os.system("clear")
-print (Fore.MAGENTA + "[*] Starting Pikachu /")
+print (Fore.MAGENTA + "[*] Starting Raticate /")
 time.sleep(0.5)
 os.system("clear")
-print (Fore.MAGENTA + "[*] Starting Pikachu /")
+print (Fore.MAGENTA + "[*] Starting Raticate /")
 time.sleep(0.5)
 os.system("clear")
-print (Fore.MAGENTA + "[*] Starting Pikachu -")
-time.sleep(0.5)
-os.system("clear")
-print (Fore.MAGENTA + "[*] Starting Pikachu |")
-time.sleep(0.5)
-os.system("clear")
-print (Fore.MAGENTA + "[*] Starting Pikachu -")
-time.sleep(0.5)
-os.system("clear")
-print (Fore.MAGENTA + "[*] Starting Pikachu /")
-time.sleep(0.5)
-os.system("clear")
-print (Fore.MAGENTA + "[*] Starting Pikachu /")
-time.sleep(0.5)
-os.system("clear")
-print (Fore.MAGENTA + "[*] Starting Pikachu -")
+print (Fore.MAGENTA + "[*] Starting Raticate -")
 time.sleep(0.5)
 os.system("clear")
 print (Fore.MAGENTA + "[*] Starting Pikachu |")
 time.sleep(0.5)
 os.system("clear")
-print (Fore.MAGENTA + "[*] Starting Pikachu -")
+print (Fore.MAGENTA + "[*] Starting Raticate -")
 time.sleep(0.5)
 os.system("clear")
-print (Fore.MAGENTA + "[*] Starting Pikachu /")
+print (Fore.MAGENTA + "[*] Starting Raticate /")
 time.sleep(0.5)
 os.system("clear")
-print (Fore.MAGENTA + "[*] Starting Pikachu /")
+print (Fore.MAGENTA + "[*] Starting Raticate /")
 time.sleep(0.5)
 os.system("clear")
-print (Fore.MAGENTA + "[*] Starting Pikachu -")
+print (Fore.MAGENTA + "[*] Starting Raticate -")
 time.sleep(0.5)
 os.system("clear")
-print (Fore.MAGENTA + "[*] Starting Pikachu |")
+print (Fore.MAGENTA + "[*] Starting Raticate |")
 time.sleep(0.5)
 os.system("clear")
-print (Fore.MAGENTA + "[*] Starting Pikachu -")
+print (Fore.MAGENTA + "[*] Starting Raticate -")
 time.sleep(0.5)
 os.system("clear")
-print (Fore.MAGENTA + "[*] Starting Pikachu /")
+print (Fore.MAGENTA + "[*] Starting Raticate /")
+time.sleep(0.5)
+os.system("clear")
+print (Fore.MAGENTA + "[*] Starting Raticate /")
+time.sleep(0.5)
+os.system("clear")
+print (Fore.MAGENTA + "[*] Starting Raticate -")
+time.sleep(0.5)
+os.system("clear")
+print (Fore.MAGENTA + "[*] Starting Raticate |")
+time.sleep(0.5)
+os.system("clear")
+print (Fore.MAGENTA + "[*] Starting Raticate -")
+time.sleep(0.5)
+os.system("clear")
+print (Fore.MAGENTA + "[*] Starting Raticate /")
 time.sleep(0.5)
 time.sleep(2)
 os.system("clear")
-print(Fore.MAGENTA + "[*] Welcome To Pikatchu")
+print(Fore.MAGENTA + "[*] Welcome To Raticate")
 time.sleep(2.5)
 os.system("clear")
 ##################################################" Pikatcu ############################################################
@@ -204,7 +204,7 @@ elif random == ("3") :
 
 def Start() :
 
- commandd = input (Fore.MAGENTA + "[Pikachu] >")
+ commandd = input (Fore.MAGENTA + "[Raticate] >")
 
 
  if commandd == ("clear") :
@@ -223,7 +223,7 @@ def Start() :
 +| show  | Show Modules|  +
  | use   | use Modules |
  | clear | Clear Screen|  +      +
- | exit  | Exit Pikachu| +
+ | exit  |  for exit   |
  | update|  For Update |
   ---------------------
 +     +       +        +   +
@@ -276,8 +276,8 @@ def Start() :
 
              Post
  ----------------------------
-     pikachu/post/openssh/ssh_user_enum                Normal         in Openssh 7.2 you can enumerate users
-     pikachu/post/wordpress/wordpress_user_enum        Good           in wordpress you can enumetate users
+     raticate/post/openssh/ssh_user_enum                Normal         in Openssh 7.2 you can enumerate users
+     raticate/post/wordpress/wordpress_user_enum        Good           in wordpress you can enumetate users
 
 
 
@@ -295,7 +295,7 @@ def Start() :
    """)
   Start()
 
- elif commandd == ("use pikachu/post/openssh/ssh_user_enum") :
+ elif commandd == ("use raticate/post/openssh/ssh_user_enum") :
     os.system("clear") 
     print("""
 
@@ -306,9 +306,9 @@ def Start() :
 
 
      """)
-    os.system("bash ~/../usr/share/Pikachu/modules/post/openssh/ssh_user_enum/ssh_enum.sh")
+    os.system("bash ~/../usr/share/Raticate/modules/post/openssh/ssh_user_enum/ssh_enum.sh")
     Start()
- elif commandd == ("use pikachu/post/wordpress/wordpress_user_enum") :
+ elif commandd == ("use raticate/post/wordpress/wordpress_user_enum") :
      os.system("clear")
      print("""
 
@@ -320,7 +320,7 @@ def Start() :
 
      """)
 
-     os.system("bash ~/../usr/share/Pikachu/modules/post/wordpress/wordpress_user_enum/wp_user.sh")
+     os.system("bash ~/../usr/share/Raticate/modules/post/wordpress/wordpress_user_enum/wp_user.sh")
      Start()
 
 ######################################################
