@@ -268,7 +268,8 @@ def Start() :
 
            Scanner
  ---------------------------
-
+     raticate/scanner/openssh/ssh_user_enum                Normal         in Openssh 7.2 you can enumerate users
+     raticate/scanner/wordpress/wordpress_user_enum        Good           in wordpress you can enumetate users
 
 
 
@@ -276,8 +277,8 @@ def Start() :
 
              Post
  ----------------------------
-     raticate/post/openssh/ssh_user_enum                Normal         in Openssh 7.2 you can enumerate users
-     raticate/post/wordpress/wordpress_user_enum        Good           in wordpress you can enumetate users
+     
+     
 
 
 
@@ -296,7 +297,7 @@ def Start() :
    """)
   Start()
 
- elif commandd == ("use raticate/post/openssh/ssh_user_enum") :
+ elif commandd == ("use raticate/scanner/openssh/ssh_user_enum") :
     os.system("clear") 
     print(Fore.LIGHTYELLOW_EX + """
 
@@ -307,7 +308,7 @@ def Start() :
 
 
      """)
-    os.system("bash ~/../usr/share/Raticate/modules/post/openssh/ssh_user_enum/ssh_enum.sh")
+    os.system("bash ~/../usr/share/Raticate/modules/scanner/openssh/ssh_user_enum/ssh_enum.sh")
     Start()
  elif commandd == ("use raticate/hash/decrypt/base64") :
      os.system("clear")
@@ -358,7 +359,7 @@ def Start() :
      Start()
 
 
- elif commandd == ("use raticate/post/wordpress/wordpress_user_enum") :
+ elif commandd == ("use raticate/scanner/wordpress/wordpress_user_enum") :
      os.system("clear")
      print(Fore.LIGHTYELLOW_EX  + """
 
@@ -370,7 +371,7 @@ def Start() :
 
      """)
 
-     os.system("bash ~/../usr/share/Raticate/modules/post/wordpress/wordpress_user_enum/wp_user.sh")
+     os.system("bash ~/../usr/share/Raticate/modules/scanner/wordpress/wordpress_user_enum/wp_user.sh")
      Start()
 
 ######################################################
