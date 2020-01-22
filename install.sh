@@ -16,7 +16,7 @@ then
 alias pikachu='python3 /usr/share/Raticate/Main/Raticate.py'
 echo -e "\033[0;31m This Installer must run with root"
 
-mv -v $ch /usr/share/Raticate
+cp -r $ch /usr/share/Raticate
 echo "alias raticate='python3 /usr/share/Raticate/Main/Raticate.py'" >> /root/.bashrc
 
 fi
