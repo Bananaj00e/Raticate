@@ -1,6 +1,8 @@
-echo "====copy this=="
+echo "======copy this====="
+echo ""
 pwd
-echo "==============="
+echo "====================="
+echo ""
 read -p " Paste Here :" ch
 clear
  
