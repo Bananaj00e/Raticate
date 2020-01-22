@@ -292,20 +292,21 @@ def Start() :
 
             Payloads
 -----------------------------
-     raticate/listener/netcat_listner                 Good              Start Netcat listener
+     raticate/listener/netcat_listener                 Good              Start Netcat Listener  (Recommend)
+     raticate/listener/classic_netcat_listener         Normal            Start Classic Netcat Listener
      raticate/payload/python/reverse_tcp              excelent         hashed python reverse shell 
 
 
 
 
-
+     
 
 
    """)
   Start()
 
 
- elif commandd == ("use raticate/listener/netcat_listner") :
+ elif commandd == ("use raticate/listener/netcat_listener") :
     rc = subprocess.call(['which', 'nc && xterm'])
     if rc == 1:
       os.system("clear")
@@ -327,9 +328,10 @@ def Start() :
       os.system("clear")
       print (Fore.GREEN + "[*] Netcat Has Been Found")
       time.sleep(3)
-      os.system("clear")
+      os.system("clear") 
       os.system("python3 ~/../usr/share/Raticate/modules/payloads/netcat/classic_nc.py")
-    else:
+      Start()
+   else:
        print (Fore.RED + "[*] This Module Need Netcat , Please Install Netcat")
        Start()
 
