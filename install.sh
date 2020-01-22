@@ -1,10 +1,4 @@
-clear
-echo -e "\e[92m========Copy This Path========"
-         
-pwd
-echo -e "\e[92m========Paste Here ==========="
-read ch
-
+ch = "pwd"
 clear
  
 echo -e "\e[92m      Linux         Termux"
