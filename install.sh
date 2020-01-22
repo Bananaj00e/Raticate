@@ -17,7 +17,7 @@ read var
 if [ $var == "1" ]
 then
 alias pikachu='python3 /usr/share/Raticate/Main/Raticate.py'
-echo " This Installer must run with root"
+echo -e "\033[0;31m This Installer must run with root"
 
 cp -r $ch /usr/share
 echo "alias raticate='python3 /usr/share/Raticate/Main/Raticate.py'" >> /root/.bashrc
@@ -49,6 +49,7 @@ pip2 install urlparse
 clear
 echo ""
 
-echo -e " \e[33m[*] pikachu Has been Installed succesfully"
-echo -e " \e[33m[*] Try To run 'raticate' in A New Terminal "
+echo -e "\033[1;37m[\033[0;31m*\033[1;37m] Raticate Has been Installed succesfully"
+
+echo -e "\033[1;37m[\033[0;31m*\033[1;37m] Type 'raticate' In Another Terminal To RUN "
 
