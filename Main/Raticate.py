@@ -50,7 +50,7 @@ x = (web.read().decode())
 print(x)
 
 os.system("clear")
-bar =  Bar(Fore.WHITE +"[" +Fore.RED +"*" +  Fore.WHITE +"]" + Fore.WHITE + ' Checking For Updates', max=100)
+bar =  Bar(Fore.WHITE +"[" +Fore.LIGHTYELLOW_EX  +"*" +  Fore.WHITE +"]" + Fore.WHITE + ' Checking For Updates', max=100)
 for i in range(100):
     time.sleep(0.01)
 
@@ -58,7 +58,7 @@ for i in range(100):
 bar.finish()
 time.sleep(2)
 os.system("clear")
-print (Fore.WHITE +"[" +Fore.RED +"*" +  Fore.WHITE +"]" + Fore.WHITE + " Current Version : ",update)
+print (Fore.WHITE +"[" +Fore.GREEN +"*" +  Fore.WHITE +"]" + Fore.WHITE + " Current Version : ",update)
 time.sleep(2)
 print (Fore.WHITE +"[" +Fore.RED +"*" +  Fore.WHITE +"]" + Fore.WHITE + " Last Version : ",x)
 time.sleep(1.5)
@@ -66,12 +66,12 @@ os.system("clear")
 
 if x > update:
     time.sleep(4)
-    print (Fore.WHITE +"[" +Fore.RED +"*" +  Fore.WHITE +"]" + Fore.WHITE + " Update Found")
+    print (Fore.WHITE +"[" +Fore.GREEN +"*" +  Fore.WHITE +"]" + Fore.WHITE + " Update Found")
     time.sleep(4)
 
     os.system("clear")
 
-    print(Fore.LIGHTYELLOW_EX + """
+    print(Fore.WHITE + """
 
 
  (\__/)    -----------------
@@ -275,8 +275,8 @@ def Start() :
 
              Post
  ----------------------------
-     raticate/post/hydra/ssh_bruteforce                   Good
-     raticate/post/hydra/ftp_bruteforce                   Good
+     raticate/post/hydra/ssh_bruteforce                   Good        Brute Force SSH With Hydra
+     raticate/post/hydra/ftp_bruteforce                   Good        Brute Force FTP With Hydra
 
 
 
