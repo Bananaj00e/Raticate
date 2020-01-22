@@ -1,4 +1,4 @@
-echo ====copy this=="
+echo "====copy this=="
 pwd
 echo "==============="
 read -p " Paste Here :" ch
