@@ -12,7 +12,7 @@
                
                
 ## How To Install
-` git clone https://github.com/Bananaj00e/Pikachu.git `
+` git clone https://github.com/Bananaj00e/Raticate.git `
 
 `bash install.sh `
 
