@@ -173,7 +173,7 @@ hashing.write("os.system(clear)")
 hashing.close()
 
 print (Fore.WHITE +"[" +Fore.RED +"*" +  Fore.WHITE +"]" + Fore.WHITE + "The Payload Path : " + apt)
-
+print (Fore.GREEN + "Info " + Fore.WHITE + ":  This Python Payload Cant Change To EXE !"
 
 #############Debug#####################
 current  = ("rm -rf " + path + payloa )
