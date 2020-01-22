@@ -98,10 +98,10 @@ else:
 
 time.sleep(3)
 os.system("clear")
-print (Fore.MAGENTA + "[*] Starting Raticate /")
+print (Fore.WHITE +"[" +Fore.RED +"*" +  Fore.WHITE +"]" + Fore.WHITE + " Starting Raticate /")
 time.sleep(0.3)
 os.system("clear")
-print (Fore.MAGENTA + "[*] Starting Raticate -")
+print (Fore.WHITE +"[" +Fore.RED +"*" +  Fore.WHITE +"]" + Fore.WHITE + " Starting Raticate -")
 time.sleep(0.3)
 os.system("clear")
 print (Fore.WHITE +"[" +Fore.RED +"*" +  Fore.WHITE +"]" + Fore.WHITE + " Starting Raticate |")
@@ -201,7 +201,7 @@ elif random == ("3") :
 
 def Start() :
 
- commandd = input (Fore.MAGENTA + "[Raticate] >")
+ commandd = input (Fore.WHITE + "[" + Fore.RED + "Raticate" + Fore.WHITE + "] >")
 
 
  if commandd == ("clear") :
