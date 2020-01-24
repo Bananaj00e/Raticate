@@ -39,7 +39,7 @@ def update() :
          os.system("clear")
 
 
-update = ("1.0")
+update = ("1.5")
 url = ("http://wiressouls.c1.biz/update.txt")
 
 
@@ -230,7 +230,7 @@ def Start() :
   Start()
 
  elif commandd == ("update") :
-  update = ("1.0")
+  update = ("1.5")
   url = ("http://wiressouls.c1.biz/update.txt")
   ############################################  Update ######################################>
   web = urllib.request.urlopen(url)
@@ -295,6 +295,7 @@ def Start() :
      raticate/listener/netcat_listener                 Good              Start Netcat Listener  (Recommend)
      raticate/listener/classic_netcat_listener         Normal            Start Classic Netcat Listener
      raticate/payload/python/reverse_tcp              excelent         hashed python reverse shell 
+     raticate/payload/windows/reverse_tcp              excelent         hashed exe reverse shell 
 
 
 
@@ -305,7 +306,18 @@ def Start() :
    """)
   Start()
 
-
+ elif commandd == ("use  raticate/payload/windows/reverse_tcp") : 
+   rc = subprocess.call(['which', 'wine'])
+    if rc == 0:
+      os.system("clear")
+      print (Fore.GREEN + "[*] Wine Has Been Found")
+      time.sleep(3)
+      os.system("clear") 
+      os.system("python3 ~/../usr/share/Raticate/modules/payloads/windows/gen.py")
+      Start()
+   else:
+       print (Fore.RED + "[*] This Module Need Wine , Please Install Wine")
+       Start()
  elif commandd == ("use raticate/listener/netcat_listener") :
     rc = subprocess.call(['which', 'nc && xterm'])
     if rc == 1:
