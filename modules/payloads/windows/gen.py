@@ -4,7 +4,7 @@ import os
 import time
 
 
-print (Fore.WHITE +"[" +Fore.GREEN +"*" +  Fore.WHITE +"]" + Fore.WHITE +  " Cheeking If Pyinstaller is Installer)
+print (Fore.WHITE +"[" +Fore.GREEN +"*" +  Fore.WHITE +"]" + Fore.WHITE +  " Cheeking If Pyinstaller is Installer")
 os.system("wine pip install pyinstaller")
 
 os.system("clear")
