@@ -84,7 +84,12 @@ if x > update:
     update = input("[Update] > ")
     if update == "y":
 ####update####
-       update()
+         print (Fore.WHITE +"[" +Fore.RED +"*" +  Fore.WHITE +"]" + Fore.WHITE + " Updating")
+         time.sleep(3)
+         os.system("rm -rf ~/../usr/share/Raticate")
+         os.system("git clone https://github.com/Bananaj00e/Raticate.git ~/../usr/share/Raticate")
+         os.system("clear")
+
 
 else:
     time.sleep(4)
