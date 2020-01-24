@@ -84,7 +84,7 @@ if x > update:
     update = input("[Update] > ")
     if update == "y":
 ####update####
-      update()
+       update()
 
 else:
     time.sleep(4)
