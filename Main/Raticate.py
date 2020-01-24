@@ -89,7 +89,8 @@ if x > update:
          os.system("rm -rf ~/../usr/share/Raticate")
          os.system("git clone https://github.com/Bananaj00e/Raticate.git ~/../usr/share/Raticate")
          os.system("clear")
-
+         print (Fore.RED + "Please Re Open Tool ")
+         sys.exit()
 
 else:
     time.sleep(4)
