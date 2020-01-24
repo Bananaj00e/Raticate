@@ -311,9 +311,9 @@ def Start() :
    """)
   Start()
 
- elif commandd == ("use  raticate/payload/windows/reverse_tcp") : 
+ elif commandd == ("use raticate/payload/windows/reverse_tcp") : 
    rc = subprocess.call(['which', 'wine'])
-    if rc == 0:
+   if rc == 0:
       os.system("clear")
       print (Fore.GREEN + "[*] Wine Has Been Found")
       time.sleep(3)
@@ -348,7 +348,7 @@ def Start() :
       os.system("clear") 
       os.system("python3 ~/../usr/share/Raticate/modules/payloads/netcat/classic_nc.py")
       Start()
-   else:
+    else:
        print (Fore.RED + "[*] This Module Need Netcat , Please Install Netcat")
        Start()
 
